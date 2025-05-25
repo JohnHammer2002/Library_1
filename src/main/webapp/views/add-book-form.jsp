@@ -38,7 +38,7 @@
 <body>
 <div class="form-container">
     <h2>Добавить новую книгу</h2>
-    <form action="${pageContext.request.contextPath}/add-book" method="post">
+    <form action="<%= request.getContextPath() %>/add-book" method="post">
         <div class="form-group">
             <label for="name">Название:</label>
             <input type="text" id="name" name="name" required>

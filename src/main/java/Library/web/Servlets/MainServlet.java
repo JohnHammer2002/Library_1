@@ -1,4 +1,4 @@
-package Library.web.Controllers;
+package Library.web.Servlets;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
