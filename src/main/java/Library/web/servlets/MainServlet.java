@@ -14,7 +14,7 @@ public class MainServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws IOException, ServletException {
         req.setAttribute("pageTitle", "Динамический заголовок");
-        req.getRequestDispatcher("WEB-INF/views/page.jsp").forward(req, resp);
+        req.getRequestDispatcher("WEB-INF/views/index.jsp").forward(req, resp);
     }
 }
 
